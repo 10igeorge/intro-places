@@ -10,21 +10,32 @@
   </head>
   <body>
     <div class="container">
-      <form>
-  <div class="form-group">
-    <label for="placeForm">Type a Place </label>
-    <input type="text" class="form-control" id="placeForm" placeholder="type some text">
-  </div>
-  <div class="form-group">
-    <label for="landmarkForm">Type a Landmark </label>
-    <input type="text" class="form-control" id="landmarkForm" placeholder="type some text">
-  </div>
-  <div class="form-group">
-    <label for="seasonForm">Type a Season </label>
-    <input type="text" class="form-control" id="seasonForm" placeholder="type some text">
-  </div>
-  <button type="submit" class="btn btn-default" id="buttonSubmit">Submit</button>
-</form>
+      <form id="new-place">
+        <div class="form-group">
+          <label for="placeForm">Type a Place </label>
+          <input type="text" class="form-control" id="placeForm" placeholder="type some text">
+        </div>
+        <div class="form-group">
+          <label for="landmarkForm">Type a Landmark </label>
+          <input type="text" class="form-control" id="landmarkForm" placeholder="type some text">
+        </div>
+        <div class="form-group">
+          <label for="seasonForm">Type a Season </label>
+          <input type="text" class="form-control" id="seasonForm" placeholder="type some text">
+        </div>
+        <button type="submit" class="btn btn-default" id="buttonSubmit">Submit</button>
+      </form><br>
+      <div class="locationNameList">
+      </div>
+
+      <div class="col-md-6">
+        <div id="showLocation">
+          <p>Landmarks: <span class="landmarkInfo"></span></p>
+          <p>Season: <span class="seasonInfo"></span></p>
+        </div>
+      </div>
+
     </div>
+
   </body>
 </html>
