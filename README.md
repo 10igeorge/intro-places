@@ -1,4 +1,4 @@
-# intro-wiki
+# intro-places
 
 ## Created By
 Isabelle George & Tim Durward
